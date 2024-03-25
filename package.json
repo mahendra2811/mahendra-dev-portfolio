@@ -10,7 +10,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@cloudinary/url-gen": "^1.19.0",
     "@emailjs/browser": "^4.3.3",
     "@fontsource-variable/raleway": "^5.0.18",
     "@fontsource/finger-paint": "^5.0.18",
@@ -18,7 +17,6 @@
     "astro": "^4.4.13",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "cloudinary": "^2.0.3",
     "curtainsjs": "^8.1.5",
     "typed.js": "^2.1.0"
   },
