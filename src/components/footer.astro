@@ -1,0 +1,40 @@
+---
+import { links } from '@/data.json'
+---
+
+<footer id="footer">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div>
+        Made with ❤️, By&nbsp;
+        <a
+          href={links.portfolio}
+          target="_blank"
+          class="primary-link">Mahendra singh puniya</a
+        >
+        <a
+          href="#"
+          target="_blank"
+          aria-label="github code source"></a
+        >
+      </div>
+
+      <div class="text-center text-lg-end">
+        <a href={links.Leetcode} target="_blank" aria-label="twitter">
+          <i class="bi bi-code-slash"></i>
+        </a>
+        <a href={links.gmail} target="_blank" aria-label="twitter">
+          <i class="bi bi-google"></i>
+        </a>
+
+        <a href={links.github} target="_blank" aria-label="github">
+          <i class="bi bi-github"></i>
+        </a>
+
+        <a href={links.linkedin} target="_blank" aria-label="linkedin">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

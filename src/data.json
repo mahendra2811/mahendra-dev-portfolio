@@ -1,0 +1,101 @@
+{
+  "fullName": "Mahendra",
+  "metadata": {
+    "title": "Mahendra Singh Puniya",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quod magni enim facilis porro, repellat soluta distinctio deserunt veritatis nam molestiae eius nostrum natus dolor? Voluptates in iusto aspernatur illum",
+    "keywords": [
+      "Mahedra singh puniya",
+      "Jodhpur",
+      "FullStack Developer",
+      "Softwear developer",
+      "IIIT Dharwad",
+      "Computer science and engineering",
+      "React",
+      "Node.js"
+    ]
+  },
+  "typedText": ["I'm Frontend Developer", "I'm Softwear developer", "I'm  from Jodhpur"],
+  "email": "mahendrapuniya92@gmail.com",
+  "location": "Jodhpur , Rajasthan (India)",
+  "description": [
+    "I am Mahendra Singh Puniya , a passionate and results-driven individual with a strong background in software development and technology. Currently pursuing final year at Indian institute of information technology Dharwad in Computer science and engineering",
+    "As a self-motivated learner, I thrive in dynamic environments and constantly seek to expand my knowledge in competitive programming , web development, and software engineering. My dedication to excellence is evident in my commitment to delivering high-quality solutions and my proactive approach to problem-solving",
+    " I am excited about the prospect of contributing my technical expertise to innovative projects and furthering my professional growth."
+    
+  ],
+  "links": {
+    "twitter": "https://twitter.com/pooniya_mahi",
+    "linkedin": "https://www.linkedin.com/in/pooniyamahendra/",
+    "github": "https://github.com/mahendra2811",
+    "mail": "mailto:mahendrapuniya92@gmail.com",
+    "blog": "https://blog.example.com" ,
+    "Leetcode": "https://leetcode.com/mahendra92/" ,
+    "portfolio": "https://mahendra-puniya.netlify.app/",
+    "gmail": "mailto:mahendrapuniya92@gmail.com"
+
+  },
+  "skills": [
+    "html",
+    "css",
+    "sass",
+    "bootstrap",
+    "tailwind",
+    "javascript",
+    "typescript",
+    "react",
+    "next",
+    "node",
+    "git",
+    "astro"
+  ],
+  "projects": [
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/network-algo_jqaptk.png",
+      "altText": "Network algo. simulator",
+      "description": "Natwork algo. simulator . It can draw graphs of Amplitude , Digital , Pulse Modulation Signals by putting the signal value",
+      "codeSrc": "https://github.com/Anup451/NetworkAlgoStimulator",
+      "liveDemoURL": "https://network-algo-stimulator-u7k5.vercel.app/",
+      "technologies": ["javascript", "tailwind", "next"]
+    },
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345403/web-chat-app_chlbda.png",
+      "altText": "Web chat app.",
+      "description": "Web chat app. ",
+      "codeSrc": "https://github.com/mahendra2811/Online-chat-app",
+      "liveDemoURL": "https://web-chat-app-mahendra2811.vercel.app/",
+      "technologies": ["node" , "javascript" , "tailwind"]
+    },
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/sarvan_ji_xj5lqn.png",
+      "altText": "thar desert photography",
+      "description": "Website regrds to tourist guide and portfolio of wildlife photographer",
+      "codeSrc": "https://github.com/mahendra2811/Thar_desert_photography",
+      "liveDemoURL": "https://thardesertphotography.com/",
+      "technologies": ["astro", "react", "tailwind"]
+    },
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345401/note-making_rorvhn.png",
+      "altText": "Note making application",
+      "description": "Note making app. ",
+      "codeSrc": "https://github.com/mahendra2811/Notes-app",
+      "liveDemoURL": "https://notes-making-app-delta.vercel.app/",
+      "technologies": ["next", "tailwind"]
+    },
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/tic-tac-toe_ylxmzt.png",
+      "altText": "Tic tae toe game",
+      "description": "Tic Tae toe game",
+      "codeSrc": "https://github.com/mahendra2811/tic-tac-toe-game",
+      "liveDemoURL": "https://mahendra2811.github.io/tic-tac-toe-game/",
+      "technologies": ["next", "tailwind"]
+    },
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/thar_wildlife_zhgqoz.png ",
+      "altText": "thar wildlife",
+      "description": "Portfolio of wildlife photographer",
+      "codeSrc": "https://github.com/mahendra2811/JP_thar_wildlife_dark_theme",
+      "liveDemoURL": "https://jagdish-pooniya.netlify.app/",
+      "technologies": ["next", "tailwind"]
+    }
+  ]
+}
