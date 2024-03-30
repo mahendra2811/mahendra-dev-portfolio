@@ -1,10 +1,6 @@
 <h1 align="center">Mahendra Singh Puniya</h1>
 
-<div align="center">
-<img src="./src/assets/image/home_white.png" width="600px">
-
-</div> <br>
-
+**Website :** visit [https://trendy-timber-online-store.netlify.app/](www.trendy-timber-online-store.netlify.app/)
 <p align ="center" >
 <img src="https://img.shields.io/badge/Astro-8B73FE?style=for-the-badge&logo=astro&logoColor=white"></img>
 <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
@@ -82,6 +78,26 @@ pnpm dev
 You can easily deploy with [Vercel](https://vercel.com) or [Netlify](https://netlify.com).
 
 🎉 By following these steps, you'll be able to customize, run, and deploy this template effectively. -->
+
+
+<div align="center" >
+<p>Light-Mode</p>
+<img src="./src/assets/image/home-white.jpeg" width="100%">
+<p>Dark-Mode</p>
+<img src="./src/assets/image/home-black.jpeg" width="100%">
+
+</div> 
+<br>
+
+## **Contributing**
+
+Contributions are welcomed, for further modifications, improvements, or any questions, feel free to reach out to me via -
+
+- **Email:** [mahendrapuniya92@gmail.com](mailto:mahendrapuniya92@gmail.com)
+- **Portfolio:** [www.MahendraPuniya.com](https://mahendra-pooniya.netlify.app/)
+- **LinkedIn:** [www.linkedin.com/in/pooniyamahendra](https://www.linkedin.com/in/pooniyamahendra/)
+- **Git-hub:** [www.github.com/mahendra2811](https://github.com/mahendra2811)
+- **Leet-code:** [www.leetcode.com/mahendra92/](https://leetcode.com/mahendra92/)
 
 ## License 📄
 
