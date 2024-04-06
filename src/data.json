@@ -50,7 +50,15 @@
   ],
   "projects": [
     {
-      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/network-algo_jqaptk.png",
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712203514/trendy-timber_mquwfd.png",
+      "altText": "Trendy Timber ",
+      "description": "A Furniture E-commerce Website",
+      "codeSrc": "https://github.com/mahendra2811/Trendy-Timber-E-commerce",
+      "liveDemoURL": "https://trendy-timber-online-store.netlify.app/",
+      "technologies": ["javascript", "tailwind", "next"]
+    },
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712405337/mahendra-dev_portfolio_projects_ox2ilq.png",
       "altText": "Network algo. simulator",
       "description": "Natwork algo. simulator . It can draw graphs of Amplitude , Digital , Pulse Modulation Signals by putting the signal value",
       "codeSrc": "https://github.com/Anup451/NetworkAlgoStimulator",
@@ -79,14 +87,6 @@
       "description": "Note making app. ",
       "codeSrc": "https://github.com/mahendra2811/Notes-app",
       "liveDemoURL": "https://notes-making-app-delta.vercel.app/",
-      "technologies": ["next", "tailwind"]
-    },
-    {
-      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/tic-tac-toe_ylxmzt.png",
-      "altText": "Tic tae toe game",
-      "description": "Tic Tae toe game",
-      "codeSrc": "https://github.com/mahendra2811/tic-tac-toe-game",
-      "liveDemoURL": "https://mahendra2811.github.io/tic-tac-toe-game/",
       "technologies": ["next", "tailwind"]
     },
     {
