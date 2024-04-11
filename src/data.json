@@ -1,7 +1,7 @@
 {
   "fullName": "Mahendra",
   "metadata": {
-    "title": "Mahendra Singh Puniya",
+    "title": "Mahedra | softwear developer ",
     "description": " a passionate and results-driven individual with a strong background in software development and technology. Currently pursuing final year at Indian institute of information technology Dharwad in Computer science and engineering",
     "keywords": [
       "Mahedra singh puniya",
@@ -28,10 +28,12 @@
     "linkedin": "https://www.linkedin.com/in/pooniyamahendra/",
     "github": "https://github.com/mahendra2811",
     "mail": "mailto:mahendrapuniya92@gmail.com",
-    "blog": "https://blog.example.com" ,
     "Leetcode": "https://leetcode.com/mahendra92/" ,
     "portfolio": "https://mahendra-puniya.netlify.app/",
-    "gmail": "mailto:mahendrapuniya92@gmail.com"
+    "gmail": "mailto:mahendrapuniya92@gmail.com",
+    "blog": "https://blog.example.com" ,
+    "resume": "mahendra_resume.pdf" 
+
 
   },
   "skills": [
