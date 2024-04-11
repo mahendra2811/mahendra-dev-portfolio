@@ -32,7 +32,7 @@
     "portfolio": "https://mahendra-puniya.netlify.app/",
     "gmail": "mailto:mahendrapuniya92@gmail.com",
     "blog": "https://blog.example.com" ,
-    "resume": "mahendra_resume.pdf" 
+    "resume": "../src/assets/resume/mahendra_resume.pdf" 
 
 
   },

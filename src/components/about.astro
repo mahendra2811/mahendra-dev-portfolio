@@ -1,5 +1,7 @@
 ---
 import { skills, description } from '@/data.json'
+import resume from '../assets/resume/mahendra_resume.pdf';
+
 ---
 
 <div id="about">
@@ -53,7 +55,9 @@ import { skills, description } from '@/data.json'
       </div>
       <p class="text-center mt-4">
         <a
-          href="../assets/resume/mahendra_resume.pdf"
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
           class="btn btn-outline-accent btn-lg rounded-pill"
           download="mahendra_resume.pdf"
         >
