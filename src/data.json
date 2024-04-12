@@ -1,25 +1,25 @@
 {
   "fullName": "Mahendra",
   "metadata": {
-    "title": "Mahedra | softwear developer ",
+    "title": "Mahendra | Software  developer ",
     "description": " a passionate and results-driven individual with a strong background in software development and technology. Currently pursuing final year at Indian institute of information technology Dharwad in Computer science and engineering",
     "keywords": [
       "Mahedra singh puniya",
       "Jodhpur",
       "FullStack Developer",
-      "Softwear developer",
+      "Software  developer",
       "IIIT Dharwad",
       "Computer science and engineering",
       "React",
       "Node.js"
     ]
   },
-  "typedText": ["I'm Frontend Developer", "I'm Softwear developer", "I'm  from Jodhpur"],
+  "typedText": ["I'm Web Developer", "I'm Software engineer", "I'm  from Jodhpur"],
   "email": "mahendrapuniya92@gmail.com",
   "location": "Jodhpur , Rajasthan (India)",
   "description": [
     "I am Mahendra Singh Puniya , a passionate and results-driven individual with a strong background in software development and technology. Currently pursuing final year at Indian institute of information technology Dharwad in Computer science and engineering",
-    "As a self-motivated learner, I thrive in dynamic environments and constantly seek to expand my knowledge in competitive programming , web development, and software engineering. My dedication to excellence is evident in my commitment to delivering high-quality solutions and my proactive approach to problem-solving",
+    "As a self-motivated learner, I excel in dynamic environments, constantly expanding my knowledge in competitive programming and web development. My commitment to excellence is evident in delivering high-quality solutions and proactive problem-solving.",
     " I am excited about the prospect of contributing my technical expertise to innovative projects and furthering my professional growth."
     
   ],
@@ -29,10 +29,11 @@
     "github": "https://github.com/mahendra2811",
     "mail": "mailto:mahendrapuniya92@gmail.com",
     "Leetcode": "https://leetcode.com/mahendra92/" ,
-    "portfolio": "https://mahendra-puniya.netlify.app/",
+    "portfolio": "http://mahendrapuniya.online/",
     "gmail": "mailto:mahendrapuniya92@gmail.com",
     "blog": "https://blog.example.com" ,
-    "resume": "../src/assets/resume/mahendra_resume.pdf" 
+    "resume": "../src/assets/resume/mahendra_resume.pdf",
+    "telegram": " "
 
 
   },
@@ -57,7 +58,7 @@
       "description": "A Furniture E-commerce Website",
       "codeSrc": "https://github.com/mahendra2811/Trendy-Timber-E-commerce",
       "liveDemoURL": "https://trendy-timber-online-store.netlify.app/",
-      "technologies": ["javascript", "tailwind", "next"]
+      "technologies": ["javascript", "tailwind", "next" , "react" , "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712405337/mahendra-dev_portfolio_projects_ox2ilq.png",
@@ -65,7 +66,7 @@
       "description": "Natwork algo. simulator . It can draw graphs of Amplitude , Digital , Pulse Modulation Signals by putting the signal value",
       "codeSrc": "https://github.com/Anup451/NetworkAlgoStimulator",
       "liveDemoURL": "https://network-algo-stimulator-u7k5.vercel.app/",
-      "technologies": ["javascript", "tailwind", "next"]
+      "technologies": ["javascript", "tailwind", "next","react" , "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345403/web-chat-app_chlbda.png",
@@ -73,7 +74,7 @@
       "description": "Web chat app. ",
       "codeSrc": "https://github.com/mahendra2811/Online-chat-app",
       "liveDemoURL": "https://web-chat-app-mahendra2811.vercel.app/",
-      "technologies": ["node" , "javascript" , "tailwind"]
+      "technologies": ["node" , "javascript" , "tailwind","react" , "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/sarvan_ji_xj5lqn.png",
@@ -81,7 +82,7 @@
       "description": "Website regrds to tourist guide and portfolio of wildlife photographer",
       "codeSrc": "https://github.com/mahendra2811/Thar_desert_photography",
       "liveDemoURL": "https://thardesertphotography.com/",
-      "technologies": ["astro", "react", "tailwind"]
+      "technologies": ["astro", "react", "tailwind" ,"html" , "css", "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345401/note-making_rorvhn.png",
@@ -89,7 +90,7 @@
       "description": "Note making app. ",
       "codeSrc": "https://github.com/mahendra2811/Notes-app",
       "liveDemoURL": "https://notes-making-app-delta.vercel.app/",
-      "technologies": ["next", "tailwind"]
+      "technologies": ["next", "tailwind","html" , "css", "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/thar_wildlife_zhgqoz.png ",
@@ -97,7 +98,7 @@
       "description": "Portfolio of wildlife photographer",
       "codeSrc": "https://github.com/mahendra2811/JP_thar_wildlife_dark_theme",
       "liveDemoURL": "https://jagdish-pooniya.netlify.app/",
-      "technologies": ["next", "tailwind"]
+      "technologies": ["next", "html" , "css", "git","tailwind"]
     }
   ]
 }
