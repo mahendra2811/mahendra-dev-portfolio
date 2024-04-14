@@ -1,4 +1,4 @@
-<h1 align="center">Mahendra Singh Puniya</h1>
+<h1 align="center">Mahendra Singh Puniya </h1>
 
 **Website :** visit [https://trendy-timber-online-store.netlify.app/](www.trendy-timber-online-store.netlify.app/)
 <p align ="center" >
@@ -43,7 +43,7 @@
 
 ## Getting Started with This Template
 
-To start  this project  , follow these steps:
+To start  this project  , follow these steps :
 
 - **Fork Repository:**
 
