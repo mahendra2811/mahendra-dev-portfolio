@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
     "@emailjs/browser": "^4.3.3",
     "@fontsource-variable/raleway": "^5.0.18",
     "@fontsource/finger-paint": "^5.0.18",
@@ -21,6 +22,7 @@
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
-    "sass": "^1.71.1"
+    "sass": "^1.71.1",
+    "tailwindcss": "^3.4.3"
   }
 }
