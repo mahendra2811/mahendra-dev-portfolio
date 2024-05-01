@@ -91,14 +91,33 @@
       "codeSrc": "https://github.com/mahendra2811/Notes-app",
       "liveDemoURL": "https://notes-making-app-delta.vercel.app/",
       "technologies": ["next", "tailwind","html" , "css", "git"]
+    }
+  ],
+  "achievment": [
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714576612/1_fzsjmx.jpg",
+      "altText": "Leetcode-Profile ",
+      "description": "Leetcode-profile",
+      "codeSrc": "https://leetcode.com/mahendra92/",
+      "liveDemoURL": "https://leetcode.com/mahendra92/",
+      "technologies": ["javascript", "tailwind", "next" , "react" , "git"]
+    },
+    
+    {
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714576614/3_lhm9u8.jpg",
+      "altText": "Gith-hub",
+      "description": "Github- Link  to my Github Profile",
+      "codeSrc": "https://auth.geeksforgeeks.org/user/mr_hatke",
+      "liveDemoURL": "https://auth.geeksforgeeks.org/user/mr_hatke",
+      "technologies": ["astro", "react", "tailwind" ,"html" , "css", "git"]
     },
     {
-      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/thar_wildlife_zhgqoz.png ",
-      "altText": "thar wildlife",
-      "description": "Portfolio of wildlife photographer",
-      "codeSrc": "https://github.com/mahendra2811/JP_thar_wildlife_dark_theme",
-      "liveDemoURL": "https://jagdish-pooniya.netlify.app/",
-      "technologies": ["next", "html" , "css", "git","tailwind"]
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714576614/2_duao7s.jpg",
+      "altText": "GFG",
+      "description": "Geeks for Geeks profile ",
+      "codeSrc": "https://auth.geeksforgeeks.org/user/mr_hatke",
+      "liveDemoURL": "https://auth.geeksforgeeks.org/user/mr_hatke",
+      "technologies": ["javascript", "tailwind", "next","react" , "git"]
     }
   ]
 }

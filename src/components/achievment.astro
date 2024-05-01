@@ -1,15 +1,70 @@
 ---
-import { email, location, links } from "@/data.json";
+import { email, location, links,projects, achievment } from "@/data.json";
+import { Image } from 'astro:assets'
+import networkAlgo from "../../public/img/projects/network-algo.png";
 ---
 
-<div id="contact">
-  <section>
-    <div class="container">
-      <!-- <h1>Achievement </h1> -->
-      
+<section id="portfolio" class="">
+  <div class="container">
+    <h1 class="mb-md-5">Achivement</h1>
+    <div class="row row-cols-1 row-cols-lg-2 g-3">
+      {
+        achievment.map(achievment => (
+          <div>
+            <div class="project" data-aos="flip-up" data-aos-duration="1000">
+              <Image
+                src={achievment.imageSrc}
+                alt={achievment.altText}
+                width={700}
+                height={700}
+                loading="lazy"
+              />
+              <div class="details">
+                <div class="position-absolute top-50 start-50 translate-middle bg-accen w-100">
+                  <p class="text-center">{achievment.description}</p>
+                  <div class="links_project">
+                    {/* <a
+                      href={achievment.codeSrc}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="source code"
+                      aria-label="source code"
+                    >
+                      <i class="bi bi-github" />
+                    </a> */}
+                    <a
+                      href={achievment.liveDemoURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Click To visit profile"
+                      aria-label="live demo"
+                    >
+                      <i class="bi bi-eye-fill" />
+                    </a>
+                  </div>
+                </div>
+                {/* <div class="technology">
+                  <div class="row">
+                    {achievment.technologies.map(tech => (
+                      <div class="col d-flex justify-content-center">
+                        <img
+                          src={`/img/stack-icons/${tech}.svg`}
+                          alt={tech}
+                          title={tech.charAt(0).toUpperCase() + tech.slice(1)}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        ))
+      }
     </div>
-  </section>
-</div>
+
+  </div>
+</section>
 
 <style>
   
@@ -18,9 +73,3 @@ import { email, location, links } from "@/data.json";
 <script>
  
 </script>
-<!-- <script>
-  window.onload = function() {
-      // Reset the form fields when the page loads
-      document.getElementById("form").reset();
-  };
-</script> -->
