@@ -1,7 +1,7 @@
 {
   "fullName": "Mahendra",
   "metadata": {
-    "title": "Mahendra | Software  developer ",
+    "title": "Mahendra Singh Puniya | Software  developer | Web Developer |  ",
     "description": " a passionate and results-driven individual with a strong background in software development and technology. Currently pursuing final year at Indian institute of information technology Dharwad in Computer science and engineering",
     "keywords": [
       "Mahedra singh puniya",
@@ -14,7 +14,7 @@
       "Node.js"
     ]
   },
-  "typedText": ["I'm Web Developer", "I'm Software engineer", "I'm  from Jodhpur"],
+  "typedText": ["I'm Web Developer", "I'm Software engineer", "I'm  from Jodhpur",  "I'm  graduated from IIIT dharwad"],
   "email": "mahendrapuniya92@gmail.com",
   "location": "Jodhpur , Rajasthan (India)",
   "description": [
@@ -50,6 +50,7 @@
     "node",
     "git",
     "astro"
+    
   ],
   "projects": [
     {
@@ -95,7 +96,7 @@
   ],
   "achievment": [
     {
-      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714576612/1_fzsjmx.jpg",
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714583186/2_qbfgv5.png",
       "altText": "Leetcode-Profile ",
       "description": "Leetcode-profile",
       "codeSrc": "https://leetcode.com/mahendra92/",
@@ -104,15 +105,15 @@
     },
     
     {
-      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714576614/3_lhm9u8.jpg",
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714583025/3_brairi.png",
       "altText": "Gith-hub",
-      "description": "Github- Link  to my Github Profile",
+      "description": "Github Profile",
       "codeSrc": "https://auth.geeksforgeeks.org/user/mr_hatke",
       "liveDemoURL": "https://auth.geeksforgeeks.org/user/mr_hatke",
       "technologies": ["astro", "react", "tailwind" ,"html" , "css", "git"]
     },
     {
-      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714576614/2_duao7s.jpg",
+      "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714583023/1_twm4h3.png",
       "altText": "GFG",
       "description": "Geeks for Geeks profile ",
       "codeSrc": "https://auth.geeksforgeeks.org/user/mr_hatke",
