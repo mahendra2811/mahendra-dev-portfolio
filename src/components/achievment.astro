@@ -6,70 +6,157 @@ import networkAlgo from "../../public/img/projects/network-algo.png";
 
 <section id="portfolio" class="">
   <div class="container">
-    <h1 class="mb-md-5">C</h1>
-    <div class="row row-cols-1 row-cols-lg-2 g-3">
-      {
-        achievment.map(achievment => (
-          <div>
-            <div class="project" data-aos="flip-up" data-aos-duration="1000">
-              <Image
-                src={achievment.imageSrc}
-                alt={achievment.altText}
-                width={700}
-                height={700}
-                loading="lazy"
-              />
-               
-              <div class="details">
-                <div class="position-absolute top-50 start-50 translate-middle bg-accen w-100">
-                <p class="text-center">{achievment.description}</p> 
-                  <div class="links_project">
-                    {/* <a
-                      href={achievment.codeSrc}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="source code"
-                      aria-label="source code"
-                    >
-                      <i class="bi bi-github" />
-                    </a> */}
-                    <a
-                      href={achievment.liveDemoURL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="Click To visit profile"
-                      aria-label="live demo"
-                    >
-                      <i class="bi bi-eye-fill" />
-                    </a>
-                  </div>
-                </div>
-                {/* <div class="technology">
-                  <div class="row">
-                    {achievment.technologies.map(tech => (
-                      <div class="col d-flex justify-content-center">
-                        <img
-                          src={`/img/stack-icons/${tech}.svg`}
-                          alt={tech}
-                          title={tech.charAt(0).toUpperCase() + tech.slice(1)}
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div> */}
-              </div>
-            </div>
-          </div>
-        ))
-      }
+    <h1 class="mb-md-5">Coding-Profile</h1>
+
+    <div class="card-container">
+  
+    <div class="card">
+     
+      <div class="icon">
+        <a href="https://leetcode.com/mahendra92/" target="_blank"  >
+        <i class="fa-solid fa-laptop-code"></i> </a>
+      </div>
+      
+     
+      <p class="title">LeetCode</p> 
+      <p class="text">  Explore my leetcode Profile </p>
+      </div>
+      <div class="card">
+        <div class="icon">
+          <a href="https://auth.geeksforgeeks.org/user/mr_hatke" target="_blank"  >
+          <i class="fa-regular fa-file-code"></i>
+        </a>
+        </div>
+      <p class="title">Geeks For Geeks</p>
+      <p class="text">Explore my  GFG Profile</p>
     </div>
+    <div class="card">
+      <div class="icon">
+        <a href="https://github.com/mahendra2811" target="_blank"  >
+        <i class="fab fa-github"></i>
+      </a>
+      </div>
+      <p class="title">Git-Hub</p>
+      <p class="text"> Check out My GitHub Repositories.</p>
+    </div>
+    <div class="card-container">
 
   </div>
 </section>
 
 <style>
+
+  .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-left: auto;
+
+}
+  .card {
+    width: calc(33.33% - 20px); 
+  margin: 10px; 
+  max-width: 300px;
+  min-width: 200px;
+  height: 250px;
+  /* background-color: #292929; */
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+}
+
+.icon i {
+  /* Adjust icon size and color as needed */
+  font-size: 40px;
+  color: white;
+}
+.icon svg {
+  fill: white;
+}
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color: #0564bd;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: #0564bd;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 270px;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height: 40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon svg path {
+  fill: url('#gradientColor');
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stacks cards vertically in mobile view */
+    align-items: center; /* Center the card container vertically */
+  }
   
+  .card {
+    width: calc(100% - 20px); /* Full width for cards on smaller screens */
+    margin: 10px 0; /* Add margin between stacked cards */
+  }
+}
+
 </style>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 <script>
  
