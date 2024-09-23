@@ -19,7 +19,6 @@
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "curtainsjs": "^8.1.5",
-    "tailwindcss": "^3.4.12",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
