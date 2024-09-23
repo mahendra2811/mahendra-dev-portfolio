@@ -1,17 +1,19 @@
 ---
-import { metadata } from '@/data.json'
+import { metadata } from "@/data.json";
 
-import Header from '@/components/header.astro'
-import Hero from '@/components/hero.astro'
-import About from '@/components/about.astro'
-import Portfolio from '@/components/portfolio.astro'
-import Contact from '@/components/contact.astro'
-import Footer from '@/components/footer.astro'
-import Achievment from '@/components/achievment.astro'
+import Header from "@/components/header.astro";
+import Hero from "@/components/hero.astro";
+import About from "@/components/about.astro";
+import Portfolio from "@/components/portfolio.astro";
+import Contact from "@/components/contact.astro";
+import Footer from "@/components/footer.astro";
+import Achievment from "@/components/achievment.astro";
 
-import '@/assets/sass/style.scss'
-import '@fontsource/finger-paint'
-import '@fontsource-variable/raleway'
+import "@/assets/sass/style.scss";
+import "@fontsource/finger-paint";
+import "@fontsource-variable/raleway";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 ---
 
 <!doctype html>
@@ -21,11 +23,16 @@ import '@fontsource-variable/raleway'
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="keywords" content={metadata.keywords.join(', ')} />
+    <meta name="keywords" content={metadata.keywords.join(", ")} />
     <meta name="description" content={metadata.description} />
     <meta name="author" content="Ahmed Zougari" />
     <meta property="og:title" content={metadata.title} />
     <meta property="og:description" content={metadata.description} />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
     <title>{metadata.title}</title>
   </head>
   <body
@@ -37,10 +44,10 @@ import '@fontsource-variable/raleway'
     <div id="root">
       <Hero />
       <main>
-        <br>
+        <br />
         <About />
-        <br><br>
-        <Achievment/>
+        <br /><br />
+        <Achievment />
         <Portfolio />
         <Contact />
       </main>
@@ -50,9 +57,9 @@ import '@fontsource-variable/raleway'
 </html>
 
 <script>
-  import AOS from 'aos'
-  import '../../node_modules/aos/dist/aos.css'
+  import AOS from "aos";
+  import "../../node_modules/aos/dist/aos.css";
   AOS.init({
     once: true,
-  })
+  });
 </script>
