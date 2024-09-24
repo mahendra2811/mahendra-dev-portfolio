@@ -1,0 +1,29 @@
+
+/* Project Buttons */
+.portfolio-project-buttons {
+  position: absolute; /* Fix buttons at the bottom */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem; /* Add some padding */
+  background-color: #fff; /* Keep the buttons' background the same */
+  border-top: 1px solid #ddd; /* Optional: Add a border for separation */
+}
+
+.portfolio-project-buttons .portfolio-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 1px solid #5c9ad4;
+  border-radius: 4px;
+  color: #5c9ad4;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-project-buttons .portfolio-btn:hover {
+  background-color: #5c9ad4;
+  color: #fff;
+}

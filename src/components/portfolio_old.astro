@@ -74,3 +74,18 @@ import networkAlgo from "../../public/img/projects/network-algo.png";
     </p>
   </div>
 </section>
+
+
+
+
+
+
+<div class="technology">
+  <div class="row">
+    {project.technologies.map(tech => (
+      <div class="col d-flex justify-content-center">
+        <p>{tech.charAt(0).toUpperCase() + tech.slice(1)}</p>
+      </div>
+    ))}
+  </div>
+</div>

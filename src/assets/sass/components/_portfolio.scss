@@ -34,6 +34,9 @@
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative; /* To position buttons at the bottom */
+  transition: box-shadow 0.3s ease;
+
+  
 }
 
 /* Responsive Adjustments */
@@ -48,6 +51,9 @@
     width: 100%; /* 1 card per row on smaller screens */
   }
 }
+.portfolio-project-card:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
 
 .portfolio-project-image {
   width: 100%;
@@ -60,10 +66,11 @@
   flex-grow: 1; /* Allows this section to expand */
 }
 
-.portfolio-project-title {
-  font-size: 1.25rem;
+.portfolio-project-title h2 {
+  font-size: 0.8rem;
+  font-family: 'Raleway', sans-serif;
   color: #333;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
 }
 
 /* Project Buttons */
@@ -82,15 +89,115 @@
 .portfolio-project-buttons .portfolio-btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: none;
-  border: 1px solid #007bff;
-  border-radius: 4px;
-  color: #007bff;
+  border: 1px solid #5c9ad4;
+  border-radius: 6px;
+  color: #5c9ad4;
   transition: background-color 0.3s ease;
 }
 
 .portfolio-project-buttons .portfolio-btn:hover {
-  background-color: #007bff;
+  background-color: #5c9ad4;
   color: #fff;
+}
+
+
+
+
+// start
+.tech-project-buttons {
+  position: fixed;
+  margin-top: 1px;
+  // position: absolute; 
+  bottom:1.5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0.5rem; /* Add some padding */
+}
+
+.tech-project-buttons  {
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.08rem;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+// end
+/* Technology Stack Section */
+.technology-stack {
+  margin-top: 1rem;
+  padding: 0 1rem; /* Ensures padding on both sides */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Technologies heading */
+.technology-stack p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Technology list with flex for inline buttons */
+.technology-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping if too long for one line */
+  gap: 0.5rem; /* Space between each button */
+}
+
+/* Technology list item styled as a small button */
+.technology-list .tech-button {
+  font-size: 0.8rem;
+  background-color: #e0e0e0; /* Light background to resemble a button */
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  color: #333;
+  text-transform: capitalize;
+  border: 1px solid #ccc; /* Border for button effect */
+  cursor: default; /* No pointer as it's a label, not clickable */
+  transition: background-color 0.3s ease;
+}
+
+/* Add hover effect to tech buttons */
+.technology-list .tech-button:hover {
+  background-color: #ccc;
+}
+
+/* Ensure proper spacing and no overlap with surrounding divs */
+.technology-stack {
+  // margin-bottom: 1rem; /* Adds space between this section and the one below */
+}
+
+
+/* Hide the description initially */
+.project-description {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Optional: To give a dark overlay effect */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Show the description on hover */
+.portfolio-project-card:hover .project-description {
+  opacity: 1;
+  visibility: visible;
 }

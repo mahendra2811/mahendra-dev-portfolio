@@ -1,0 +1,125 @@
+#portfolio {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Portfolio Row for Flexbox/Grid */
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Project Card Styling */
+.portfolio-project-card {
+  width: calc(100% / 3 - 1rem);
+  max-width: 400px;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem; /* Add padding at the bottom */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .portfolio-project-card {
+    width: calc(100% / 2 - 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-project-card {
+    width: 100%;
+  }
+}
+
+/* Project Image */
+.portfolio-project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.portfolio-project-details {
+  padding: 1rem;
+}
+
+/* Project Title */
+.portfolio-project-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Project Description */
+.project-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* Technology List */
+.technology-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.technology-list .tech-button {
+  font-size: 0.8rem;
+  background-color: #e0e0e0;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-transform: capitalize;
+}
+
+.technology-list .tech-button:hover {
+  background-color: #ccc;
+}
+
+/* Project Buttons */
+.portfolio-project-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.portfolio-project-buttons .portfolio-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border: 1px solid #5c9ad4;
+  border-radius: 4px;
+  color: #5c9ad4;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-project-buttons .portfolio-btn:hover {
+  background-color: #5c9ad4;
+  color: #fff;
+}
+
+/* Ensure proper spacing and no overlap */
+.technology-stack {
+  margin-bottom: 1rem;
+}

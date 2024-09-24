@@ -56,15 +56,15 @@
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712203514/trendy-timber_mquwfd.png",
       "altText": "Trendy Timber ",
-      "description": "A Furniture E-commerce Website",
+      "description": "A modern furniture website with multiple features (Home, Shop, Product, Cart, etc.), optimized for user engagement. It includes a contact form with API integration for real-time communication and showcases Mahendra's front-end skills with impressive UI/UX design.",
       "codeSrc": "https://github.com/mahendra2811/Trendy-Timber-E-commerce",
       "liveDemoURL": "https://trendy-timber-online-store.netlify.app/",
-      "technologies": ["javascript", "tailwind", "next" , "react" , "git"]
+      "technologies": ["javascript", "tailwind", "next" , "Vue.js" ]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712405337/mahendra-dev_portfolio_projects_ox2ilq.png",
       "altText": "Network algo. simulator",
-      "description": "Natwork algo. simulator . It can draw graphs of Amplitude , Digital , Pulse Modulation Signals by putting the signal value",
+      "description": "A visual tool for simulating network algorithms such as Dijkstra's and Bellman-Ford, enabling users to visualize network routing and graph algorithms in real-time.",
       "codeSrc": "https://github.com/Anup451/NetworkAlgoStimulator",
       "liveDemoURL": "https://network-algo-stimulator-u7k5.vercel.app/",
       "technologies": ["javascript", "tailwind", "next","react" , "git"]
@@ -72,15 +72,15 @@
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345403/web-chat-app_chlbda.png",
       "altText": "Web chat app.",
-      "description": "Web chat app. ",
+      "description": "A real-time web chat application featuring private and group messaging, built using web sockets for seamless communication. Includes user authentication, message storage, and responsive UI. ",
       "codeSrc": "https://github.com/mahendra2811/Online-chat-app",
       "liveDemoURL": "https://web-chat-app-mahendra2811.vercel.app/",
-      "technologies": ["node" , "javascript" , "tailwind","react" , "git"]
+      "technologies": ["node" , "javascript" , "tailwind","react" ]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/sarvan_ji_xj5lqn.png",
       "altText": "thar desert photography",
-      "description": "Website regrds to tourist guide and portfolio of wildlife photographer",
+      "description": "A website for a wildlife photographer, featuring dynamic pages (Home, Gallery, Blogs, Contact) and social media integration. It was developed to boost audience interaction and deployed on GoDaddy.",
       "codeSrc": "https://github.com/mahendra2811/Thar_desert_photography",
       "liveDemoURL": "https://thardesertphotography.com/",
       "technologies": ["astro", "react", "tailwind" ,"html" , "css", "git"]
@@ -88,11 +88,12 @@
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345401/note-making_rorvhn.png",
       "altText": "Note making application",
-      "description": "Note making app. ",
+      "description": "A simple and intuitive note-making app allowing users to create, edit, and organize notes. Includes features like tagging, search functionality, and local storage for persistence. ",
       "codeSrc": "https://github.com/mahendra2811/Notes-app",
       "liveDemoURL": "https://notes-making-app-delta.vercel.app/",
       "technologies": ["next", "tailwind","html" , "css", "git"]
     }
+
   ],
   "achievment": [
     {

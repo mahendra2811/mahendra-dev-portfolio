@@ -1,32 +1,51 @@
 ---
-import { projects, links } from '@/data.json'
-import { Image } from 'astro:assets'
+import { projects, links } from "@/data.json";
+import { Image } from "astro:assets";
 import networkAlgo from "../../public/img/projects/network-algo.png";
-
 ---
 <section id="portfolio">
   <div class="portfolio-container">
     <h1 class="portfolio-title">PROJECTS</h1>
 
     <div class="portfolio-row">
-      {projects.map((project) => (
-        <div class="portfolio-project-card" key={project.altText}>
-          <img src={project.imageSrc} alt={project.altText} class="portfolio-project-image" />
-          
-          <div class="portfolio-project-details">
-            <h2 class="portfolio-project-title">{project.description}</h2>
-          </div>
+      {
+        projects.map((project) => (
+          <div class="portfolio-project-card" key={project.altText}>
+            <img
+              src={project.imageSrc}
+              alt={project.altText}
+              class="portfolio-project-image"
+            />
 
-          <div class="portfolio-project-buttons">
-            <a href={project.codeSrc} target="_blank" class="portfolio-btn">
-              View Code
-            </a>
-            <a href={project.liveDemoURL} target="_blank" class="portfolio-btn">
-              Live Demo
-            </a>
+            <div class="portfolio-project-details">
+              <h3 class="portfolio-project-title">{project.altText}</h3>
+
+              <p class="project-description">{project.description}</p>
+
+              <!-- Technologies Used -->
+              <div class="technology-stack">
+                <ul class="technology-list">
+                  {project.technologies.map((tech) => (
+                    <li class="tech-button">
+                      {tech.charAt(0).toUpperCase() + tech.slice(1)}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <!-- Project Buttons -->
+            <div class="portfolio-project-buttons">
+              <a href={project.codeSrc} target="_blank" class="portfolio-btn">
+                <i class="fa-brands fa-github" /> View Code
+              </a>
+              <a href={project.liveDemoURL} target="_blank" class="portfolio-btn">
+                Live Demo
+              </a>
+            </div>
           </div>
-        </div>
-      ))}
+        ))
+      }
     </div>
   </div>
 </section>
