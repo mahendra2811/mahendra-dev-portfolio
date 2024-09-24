@@ -53,11 +53,11 @@ messageInput.addEventListener('keyup', e => {
 
 // submitButton.disabled = fal
 function checkAllInputs() {
-  submitButton.disabled =
+  submitButton.disabled = 
     nameInput.value.length > 2 &&
     emailInput.value.match(emailPattern) &&
-    subjectInput.value.length > 2 &&
-    messageInput.value.split(' ').length > 5
+    subjectInput.value.length > 2
+    // messageInput.value.split(' ').length > 5
       ? false
       : true
 }
