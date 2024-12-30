@@ -96,8 +96,8 @@ Contributions are welcomed, for further modifications, improvements, or any ques
 - **Email:** [mahendrapuniya92@gmail.com](mailto:mahendrapuniya92@gmail.com)
 - **Portfolio:** [www.MahendraPuniya.com](https://mahendra-pooniya.netlify.app/)
 - **LinkedIn:** [www.linkedin.com/in/pooniyamahendra](https://www.linkedin.com/in/pooniyamahendra/)
-- **Git-hub:** [www.github.com/mahendra2811](https://github.com/mahendra2811)
 - **Leet-code:** [www.leetcode.com/mahendra92/](https://leetcode.com/mahendra92/)
+- **Git-hub:** [www.github.com/mahendra2811](https://github.com/mahendra2811)
 
 ## License 📄
 
@@ -105,7 +105,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 ## Sponsor 💛
 
-Give a ⭐ if you like my portfolio project!
+Give a ⭐ if you like my portfolio project! and contact us directly for any project.
 
 ```
 
