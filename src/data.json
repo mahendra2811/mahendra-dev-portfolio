@@ -11,31 +11,100 @@
       "IIIT Dharwad",
       "Computer science and engineering",
       "React",
-      "Node.js"
+      "Node.js",
+      "Frontend developer ",
+      "Backend developer",
+      "Web Developer",
+      "Software engineer",
+      "IIIT Dharwad",
+      "Jodhpur",
+      "Rajasthan",
+      "India",
+      "Mahendra Singh Puniya",
+      "Mahendra",
+      "Puniya",
+      "Mahendra Singh",
+      "Puniya Mahendra",
+      "Mahendra Puniya",
+      "Mahendra Singh Puniya",
+      "Mahendra Singh Puniya IIIT Dharwad",
+      "Mahendra Singh Puniya Jodhpur",
+      "Mahendra Singh Puniya Rajasthan",
+      "Mahendra Singh Puniya India",
+      "Mahendra Singh Puniya Software  developer",
+      "Mahendra Singh Puniya Web Developer",
+      "Mahendra Singh Puniya FullStack Developer",
+      "Mahendra Singh Puniya Software engineer",
+      "Mahendra Singh Puniya",
+      "Jodhpur",
+      "FullStack Developer",
+      "Software Developer",
+      "IIIT Dharwad",
+      "Computer Science and Engineering",
+      "React",
+      "Node.js",
+      "Frontend Developer",
+      "Backend Developer",
+      "Web Developer",
+      "Software Engineer",
+      "Rajasthan",
+      "India",
+      "Mahendra Puniya",
+      "Mahendra Singh",
+      "Puniya Mahendra",
+      "Mahendra IIIT Dharwad",
+      "Mahendra Jodhpur",
+      "Mahendra Rajasthan",
+      "Mahendra India",
+      "FullStack Dev",
+      "React Developer",
+      "Node.js Developer",
+      "Frontend Dev",
+      "Backend Dev",
+      "Web Dev",
+      "Software Dev",
+      "CSE Student",
+      "IIIT Dharwad Student",
+      "Tech Enthusiast",
+      "Coding Expert",
+      "Web Design",
+      "App Development",
+      "Programming Skills",
+      "Tech Career",
+      "Developer Portfolio",
+      "Coding Projects",
+      "Tech Blog",
+      "Software Solutions",
+      "Web Applications",
+      "Tech Innovations",
+      "Coding Tips",
+      "Developer Insights"
     ]
   },
-  "typedText": ["I'm Web Developer", "I'm Software engineer", "I'm  from Jodhpur",  "I'm  graduated from IIIT dharwad"],
+  "typedText": [
+    "I'm Web Developer",
+    "I'm Software engineer",
+    "I'm  from Jodhpur",
+    "I'm  graduated from IIIT dharwad"
+  ],
   "email": "mahendrapuniya92@gmail.com",
   "location": "Jodhpur , Rajasthan (India)",
   "description": [
     "I am Mahendra Singh Puniya , a passionate and results-driven individual with a strong background in software development and technology. Currently pursuing final year at Indian institute of information technology Dharwad in Computer science and engineering",
     "As a self-motivated learner, I excel in dynamic environments, constantly expanding my knowledge in competitive programming and web development. My commitment to excellence is evident in delivering high-quality solutions and proactive problem-solving.",
     " I am excited about the prospect of contributing my technical expertise to innovative projects and furthering my professional growth."
-    
   ],
   "links": {
     "twitter": "https://twitter.com/pooniya_mahi",
     "linkedin": "https://www.linkedin.com/in/pooniyamahendra/",
     "github": "https://github.com/mahendra2811",
     "mail": "mailto:mahendrapuniya92@gmail.com",
-    "Leetcode": "https://leetcode.com/mahendra92/" ,
+    "Leetcode": "https://leetcode.com/mahendra92/",
     "portfolio": "http://mahendrapuniya.online/",
     "gmail": "mailto:mahendrapuniya92@gmail.com",
-    "blog": "https://blog.example.com" ,
+    "blog": "https://blog.example.com",
     "resume": "../src/assets/resume/mahendra_resume.pdf",
     "telegram": " "
-
-
   },
   "skills": [
     "html",
@@ -50,7 +119,6 @@
     "node",
     "git",
     "astro"
-    
   ],
   "projects": [
     {
@@ -59,7 +127,7 @@
       "description": "A modern furniture website with multiple features (Home, Shop, Product, Cart, etc.), optimized for user engagement. It includes a contact form with API integration for real-time communication and showcases Mahendra's front-end skills with impressive UI/UX design.",
       "codeSrc": "https://github.com/mahendra2811/Trendy-Timber-E-commerce",
       "liveDemoURL": "https://trendy-timber-online-store.netlify.app/",
-      "technologies": ["javascript", "tailwind", "next" , "Vue.js" ]
+      "technologies": ["javascript", "tailwind", "next", "Vue.js"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712405337/mahendra-dev_portfolio_projects_ox2ilq.png",
@@ -67,7 +135,7 @@
       "description": "A visual tool for simulating network algorithms such as Dijkstra's and Bellman-Ford, enabling users to visualize network routing and graph algorithms in real-time.",
       "codeSrc": "https://github.com/Anup451/NetworkAlgoStimulator",
       "liveDemoURL": "https://network-algo-stimulator-u7k5.vercel.app/",
-      "technologies": ["javascript", "tailwind", "next","react" , "git"]
+      "technologies": ["javascript", "tailwind", "next", "react", "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345403/web-chat-app_chlbda.png",
@@ -75,7 +143,7 @@
       "description": "A real-time web chat application featuring private and group messaging, built using web sockets for seamless communication. Includes user authentication, message storage, and responsive UI. ",
       "codeSrc": "https://github.com/mahendra2811/Online-chat-app",
       "liveDemoURL": "https://web-chat-app-mahendra2811.vercel.app/",
-      "technologies": ["node" , "javascript" , "tailwind","react" ]
+      "technologies": ["node", "javascript", "tailwind", "react"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345402/sarvan_ji_xj5lqn.png",
@@ -83,7 +151,7 @@
       "description": "A website for a wildlife photographer, featuring dynamic pages (Home, Gallery, Blogs, Contact) and social media integration. It was developed to boost audience interaction and deployed on GoDaddy.",
       "codeSrc": "https://github.com/mahendra2811/Thar_desert_photography",
       "liveDemoURL": "https://thardesertphotography.com/",
-      "technologies": ["astro", "react", "tailwind" ,"html" , "css", "git"]
+      "technologies": ["astro", "react", "tailwind", "html", "css", "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345401/note-making_rorvhn.png",
@@ -91,9 +159,8 @@
       "description": "A simple and intuitive note-making app allowing users to create, edit, and organize notes. Includes features like tagging, search functionality, and local storage for persistence. ",
       "codeSrc": "https://github.com/mahendra2811/Notes-app",
       "liveDemoURL": "https://notes-making-app-delta.vercel.app/",
-      "technologies": ["next", "tailwind","html" , "css", "git"]
+      "technologies": ["next", "tailwind", "html", "css", "git"]
     }
-
   ],
   "achievment": [
     {
@@ -102,16 +169,16 @@
       "description": "Leetcode-profile",
       "codeSrc": "https://leetcode.com/mahendra92/",
       "liveDemoURL": "https://leetcode.com/mahendra92/",
-      "technologies": ["javascript", "tailwind", "next" , "react" , "git"]
+      "technologies": ["javascript", "tailwind", "next", "react", "git"]
     },
-    
+
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714583025/3_brairi.png",
       "altText": "Gith-hub",
       "description": "Github Profile",
       "codeSrc": "https://auth.geeksforgeeks.org/user/mr_hatke",
       "liveDemoURL": "https://auth.geeksforgeeks.org/user/mr_hatke",
-      "technologies": ["astro", "react", "tailwind" ,"html" , "css", "git"]
+      "technologies": ["astro", "react", "tailwind", "html", "css", "git"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1714583023/1_twm4h3.png",
@@ -119,7 +186,7 @@
       "description": "Geeks for Geeks profile ",
       "codeSrc": "https://auth.geeksforgeeks.org/user/mr_hatke",
       "liveDemoURL": "https://auth.geeksforgeeks.org/user/mr_hatke",
-      "technologies": ["javascript", "tailwind", "next","react" , "git"]
+      "technologies": ["javascript", "tailwind", "next", "react", "git"]
     }
   ]
 }
