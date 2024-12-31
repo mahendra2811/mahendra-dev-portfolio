@@ -135,7 +135,7 @@
       "description": "A visual tool for simulating network algorithms such as Dijkstra's and Bellman-Ford, enabling users to visualize network routing and graph algorithms in real-time.",
       "codeSrc": "https://github.com/Anup451/NetworkAlgoStimulator",
       "liveDemoURL": "https://network-algo-stimulator-u7k5.vercel.app/",
-      "technologies": ["javascript", "tailwind", "next", "react", "git"]
+      "technologies": ["javascript", "tailwind", "next", "react"]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1711345403/web-chat-app_chlbda.png",

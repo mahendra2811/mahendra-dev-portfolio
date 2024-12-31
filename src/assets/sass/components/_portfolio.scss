@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-transform: uppercase;
-  color: #333;
+  color: #5c9ad4;
 }
 
 /* Portfolio Row for Flexbox/Grid */
@@ -29,8 +29,8 @@
   width: calc(100% / 3 - 1rem); /* 3 cards per row with space */
   max-width: 400px;
   margin-bottom: 2rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  // border: 1px solid #ddd;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative; /* To position buttons at the bottom */
@@ -52,7 +52,7 @@
   }
 }
 .portfolio-project-card:hover {
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-project-image {
@@ -64,12 +64,14 @@
 .portfolio-project-details {
   padding: 1rem;
   flex-grow: 1; /* Allows this section to expand */
+ margin-bottom: 5rem;
+  
 }
 
-.portfolio-project-title h2 {
+.portfolio-project-title h3 {
   font-size: 0.8rem;
   font-family: 'Raleway', sans-serif;
-  color: #333;
+  color: #5c9ad4;
   // margin-bottom: 1rem;
 }
 
@@ -82,7 +84,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 1rem; /* Add some padding */
-  background-color: #fff; /* Keep the buttons' background the same */
+  // background-color: #fff; /* Keep the buttons' background the same */
   border-top: 1px solid #ddd; /* Optional: Add a border for separation */
 }
 
@@ -156,10 +158,10 @@
 /* Technology list item styled as a small button */
 .technology-list .tech-button {
   font-size: 0.8rem;
-  background-color: #e0e0e0; /* Light background to resemble a button */
+  // background-color: #e0e0e0; 
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
-  color: #333;
+  color: #5c9ad4;
   text-transform: capitalize;
   border: 1px solid #ccc; /* Border for button effect */
   cursor: default; /* No pointer as it's a label, not clickable */
@@ -173,7 +175,7 @@
 
 /* Ensure proper spacing and no overlap with surrounding divs */
 .technology-stack {
-  // margin-bottom: 1rem; /* Adds space between this section and the one below */
+  margin-bottom: 1px; /* Adds space between this section and the one below */
 }
 
 

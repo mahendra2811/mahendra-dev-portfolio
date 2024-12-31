@@ -1,7 +1,7 @@
 ---
-import { Image } from 'astro:assets'
+import { Image } from "astro:assets";
 
-import { links } from '@/data.json'
+import { links } from "@/data.json";
 ---
 
 <header class="sticky-top">
@@ -18,10 +18,10 @@ import { links } from '@/data.json'
         />
       </a>
 
-      <!-- <button id="theme-btn" class="align-self-center ms-auto me-3">
+      <button id="theme-btn" class="align-self-center ms-auto me-3">
         <i class="bi bi-moon-fill"></i>
         <i class="bi bi-brightness-high-fill"></i>
-      </button> -->
+      </button>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,30 +56,30 @@ import { links } from '@/data.json'
 
 <script>
   // navbar + scroll spy
-  import { Collapse, ScrollSpy } from 'bootstrap'
+  import { Collapse, ScrollSpy } from "bootstrap";
   // dark/light mode
-  import '@/assets/js/themes'
+  import "@/assets/js/themes";
 
   // hide mobile menu when clicking on a link
-  document.querySelectorAll('.nav-link').forEach(navLink =>
-    navLink.addEventListener('click', () => {
-      const toggler = document.querySelector('.navbar-toggler')
-      toggler?.classList.add('collapsed')
-      toggler?.setAttribute('aria-expanded', 'false')
-      document.querySelector('#toggleMobileMenu')?.classList.remove('show')
+  document.querySelectorAll(".nav-link").forEach((navLink) =>
+    navLink.addEventListener("click", () => {
+      const toggler = document.querySelector(".navbar-toggler");
+      toggler?.classList.add("collapsed");
+      toggler?.setAttribute("aria-expanded", "false");
+      document.querySelector("#toggleMobileMenu")?.classList.remove("show");
     })
-  )
+  );
 
   // hide header on scroll down / show on scroll up
-  let prevScrollPos = window.scrollY
-  const header = document.querySelector('.sticky-top')
+  let prevScrollPos = window.scrollY;
+  const header = document.querySelector(".sticky-top");
   window.onscroll = function () {
-    let currentScrollPos = window.scrollY
+    let currentScrollPos = window.scrollY;
     if (prevScrollPos > currentScrollPos) {
-      header?.classList.add('sticky-top')
+      header?.classList.add("sticky-top");
     } else {
-      header?.classList.remove('sticky-top')
+      header?.classList.remove("sticky-top");
     }
-    prevScrollPos = currentScrollPos
-  }
+    prevScrollPos = currentScrollPos;
+  };
 </script>
