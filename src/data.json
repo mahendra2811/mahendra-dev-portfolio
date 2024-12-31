@@ -136,7 +136,7 @@
       "description": "This portfolio website is a personal showcase of my skills, projects, and expertise as a front-end developer and UI/UX designer. Designed to be clean, modern, and user-friendly, it serves as a platform to highlight my work, share my journey, and connect with potential employers or clients",
       "codeSrc": "https://github.com/mahendra2811/mahendra-dev-portfolio",
       "liveDemoURL": "https://mahendrapuniya.online/",
-      "technologies": ["javascript", "tailwind", "Astro", "Vue.js", "JSON" , "Font Awesome" ]
+      "technologies": ["javascript", "Curtains js","Bootstrap ","Typed js", "Astro","AOS js", "Vue.js", "JSON" , "Font Awesome" ]
     },
     {
       "imageSrc": "https://res.cloudinary.com/dll1u9bgh/image/upload/v1712203514/trendy-timber_mquwfd.png",
