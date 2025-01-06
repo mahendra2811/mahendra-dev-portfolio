@@ -123,12 +123,11 @@
   "projects": [
     {
       "imageSrc": "https://res.cloudinary.com/ddu4msir9/image/upload/v1735633103/Portfolio-web/alcpks3qpqznliatyd86.png",
-      "altText": "Anmimation OCHI website clone",
+      "altText": "OCHI website clone",
       "description": "This project is a responsive and animated clone of the Ochi Design website, a modern and visually stunning platform known for its smooth animations and clean design. The goal of this project was to replicate the user experience and aesthetic appeal of the original website while showcasing my skills in front-end development and UI/UX",
       "codeSrc": "https://github.com/mahendra2811/react_OCHI_design",
       "liveDemoURL": "https://react-ochi-design-ivory.vercel.app/",
       "technologies": ["javascript", "tailwind", "vite", "react" , "redux" ,"Framer-Motion" , "Locomotive-Scroll"] 
-
     },
     {
       "imageSrc": "https://res.cloudinary.com/ddu4msir9/image/upload/v1735634135/Screenshot_2024-12-31_140442_bt3sk9.png",
