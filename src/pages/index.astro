@@ -31,8 +31,20 @@ import "bootstrap-icons/font/bootstrap-icons.css";
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <meta name="google-adsense-account" content="ca-pub-6987276683420538">
+    <meta name="google-adsense-account" content="ca-pub-6987276683420538" />
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWPW4VLJ58"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KWPW4VLJ58");
+    </script>
     <title>{metadata.title}</title>
   </head>
   <body
