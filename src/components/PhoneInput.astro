@@ -1,0 +1,116 @@
+import React, { useState } from 'react';
+import { ChevronDown, Check } from 'lucide-react';
+
+const PhoneInput = () => {
+  const [selectedCountry, setSelectedCountry] = useState({
+    code: 'IN',
+    dial: '+91',
+    flag: '🇮🇳'
+  });
+  const [isOpen, setIsOpen] = useState(false);
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [isValid, setIsValid] = useState(true);
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const countries = [
+    { code: 'IN', dial: '+91', flag: '🇮🇳' },
+    { code: 'US', dial: '+1', flag: '🇺🇸' },
+    { code: 'UK', dial: '+44', flag: '🇬🇧' },
+    { code: 'CA', dial: '+1', flag: '🇨🇦' },
+    { code: 'AU', dial: '+61', flag: '🇦🇺' }
+  ];
+
+  const validatePhone = (value) => {
+    // Remove any non-digit characters
+    const digitsOnly = value.replace(/\D/g, '');
+    
+    if (digitsOnly.length === 0) {
+      setIsValid(false);
+      setErrorMessage('Phone number is required');
+      return false;
+    }
+    
+    // Check if length is valid (assuming 10 digits for most countries)
+    if (digitsOnly.length !== 10) {
+      setIsValid(false);
+      setErrorMessage('Phone number must be 10 digits');
+      return false;
+    }
+
+    setIsValid(true);
+    setErrorMessage('');
+    return true;
+  };
+
+  const handlePhoneChange = (e) => {
+    const value = e.target.value;
+    // Only allow digits
+    const digitsOnly = value.replace(/\D/g, '');
+    setPhoneNumber(digitsOnly);
+    validatePhone(digitsOnly);
+  };
+
+  return (
+    <div className="col-12 col-lg-6 mt-3">
+      <div className="relative">
+        <div className="form-floating flex">
+          {/* Country Selector */}
+          <div className="relative inline-block">
+            <button
+              type="button"
+              className="flex items-center h-14 px-3 border border-gray-300 rounded-l bg-gray-50 hover:bg-gray-100 dark:bg-gray-700 dark:border-gray-600 dark:hover:bg-gray-600"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <span className="text-xl mr-2">{selectedCountry.flag}</span>
+              <span className="text-sm font-medium">{selectedCountry.dial}</span>
+              <ChevronDown className="w-4 h-4 ml-1" />
+            </button>
+            
+            {isOpen && (
+              <div className="absolute z-10 mt-1 w-48 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-md shadow-lg">
+                {countries.map((country) => (
+                  <button
+                    key={country.code}
+                    type="button"
+                    className="flex items-center w-full px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700"
+                    onClick={() => {
+                      setSelectedCountry(country);
+                      setIsOpen(false);
+                    }}
+                  >
+                    <span className="text-xl mr-2">{country.flag}</span>
+                    <span>{country.dial}</span>
+                    {selectedCountry.code === country.code && (
+                      <Check className="w-4 h-4 ml-auto" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Phone Input */}
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            value={phoneNumber}
+            onChange={handlePhoneChange}
+            className={`form-control rounded-l-none ${!isValid ? 'is-invalid' : ''}`}
+            placeholder="1234567890"
+            required
+          />
+          <label htmlFor="phone" className="ms-2">Phone No.</label>
+          
+          {!isValid && (
+            <div className="invalid-feedback small_label">
+              {errorMessage}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PhoneInput;
