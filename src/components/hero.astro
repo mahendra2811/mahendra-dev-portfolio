@@ -1,5 +1,6 @@
 ---
-import { links, fullName, typedText } from '@/data.json'
+import { links, fullName, typedText } from "@/data.json";
+import mahendra from "@/assets/image/mahendra4.jpeg";
 ---
 
 <div id="hero">
@@ -20,11 +21,7 @@ import { links, fullName, typedText } from '@/data.json'
           <div class="social-links mx-auto mx-lg-0">
             <div class="row">
               <div class="col-3">
-                <a
-                  href={links.gmail}
-                  target="_blank"
-                  aria-label="mail"
-                >
+                <a href={links.gmail} target="_blank" aria-label="mail">
                   <i class="bi bi-envelope-fill"></i>
                 </a>
               </div>
@@ -59,7 +56,7 @@ import { links, fullName, typedText } from '@/data.json'
 
           <div class="curtain">
             <img
-              src="https://res.cloudinary.com/ddu4msir9/image/upload/v1727198136/mahendra3_keanqt.jpg"
+              src="https://res.cloudinary.com/dzp22bb5p/image/upload/v1740901736/mahendra3_h0m5qo.jpg"
               crossorigin=""
               data-sampler="simplePlaneTexture"
               width="400"
@@ -74,16 +71,16 @@ import { links, fullName, typedText } from '@/data.json'
 </div>
 
 <script>
-  import Typed from 'typed.js'
-  import '@/assets/js/curtain.js'
-  import { typedText } from '@/data.json'
+  import Typed from "typed.js";
+  import "@/assets/js/curtain.js";
+  import { typedText } from "@/data.json";
 
   class MyTypeWriter extends HTMLElement {
     constructor() {
-      super()
+      super();
 
       // Read the message from the data attribute.
-      const strings = this.dataset.texts.split(',')
+      const strings = this.dataset.texts.split(",");
 
       const options = {
         strings,
@@ -91,11 +88,11 @@ import { links, fullName, typedText } from '@/data.json'
         backSpeed: 50,
         backDelay: 1500,
         loop: true,
-      }
+      };
 
-      var typed = new Typed('#headline', options)
+      var typed = new Typed("#headline", options);
     }
   }
 
-  customElements.define('astro-typewriter', MyTypeWriter)
+  customElements.define("astro-typewriter", MyTypeWriter);
 </script>
