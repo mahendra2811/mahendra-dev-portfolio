@@ -29,8 +29,6 @@ import { email, location } from "@/data.json";
         </div>
 
         <div class="contact_form col-12 col-lg-8 d-grid align-content-center">
-
-
           <form
             action="https://api.web3forms.com/submit"
             id="form"
@@ -83,7 +81,7 @@ import { email, location } from "@/data.json";
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-6 mt-3 ">
+              <div class="col-12 col-lg-6 mt-3">
                 <div class="form-floating">
                   <input
                     type="text"
@@ -115,7 +113,7 @@ import { email, location } from "@/data.json";
                   </div>
                 </div>
               </div>
-              
+
               <div class="col-12 col-lg-12 mt-3">
                 <div class="form-floating">
                   <textarea
@@ -138,7 +136,7 @@ import { email, location } from "@/data.json";
               <div class="col-12 mt-3">
                 <p class="thanks">Thank you. I will reply soon.</p>
               </div>
-              
+
               <div class="mt-3">
                 <button
                   class="btn btn-lg d-block w-100 bg-accent text-white mx-auto"
@@ -161,8 +159,10 @@ import { email, location } from "@/data.json";
   </section>
 </div>
 
-
 <style>
+  .spinner-border {
+    display: none; /* Hide spinner initially */
+  }
   .form-control.is-valid {
     border-color: var(--bs-form-valid-border-color);
     padding-right: calc(1.5em + 0.75rem);
@@ -184,6 +184,138 @@ import { email, location } from "@/data.json";
 
 <script>
   import "@/assets/js/contact";
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("form");
+    const sendButton = document.getElementById("send");
+    const spinner = document.querySelector(".spinner-border");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent form submission for validation
+
+      // Clear previous feedback
+      const feedbackElements = document.querySelectorAll(".invalid-feedback");
+      feedbackElements.forEach((el) => (el.style.display = "none"));
+
+      let isValid = true;
+
+      // Validate Name
+      const name = document.getElementById("name").value;
+      if (name.length < 2) {
+        document.querySelector("#name + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Email
+      const email = document.getElementById("email").value;
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        document.querySelector("#email + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Phone
+      const phone = document.getElementById("phone").value;
+      const phonePattern = /^\+91\d{10}$/; // Format: +91 followed by 10 digits
+      if (!phonePattern.test(phone)) {
+        document.querySelector("#phone + .invalid-feedback").style.display =
+          "block";
+        document.querySelector("#phone + .invalid-feedback").textContent =
+          "Please enter a valid Indian phone number (e.g., +911234567890).";
+        isValid = false;
+      }
+
+      // Validate Subject
+      const subject = document.getElementById("subject").value;
+      if (subject.trim() === "") {
+        document.querySelector("#subject + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Message
+      const message = document.getElementById("message").value;
+      const wordCount = message.trim().split(/\s+/).length;
+      if (wordCount <= 5) {
+        document.querySelector("#message + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // If all validations pass, enable the button and submit the form
+      if (isValid) {
+        sendButton.disabled = true;
+        spinner.style.display = "block"; // Show loading spinner
+        form.submit(); // Submit the form
+      }
+    });
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("form");
+    const sendButton = document.getElementById("send");
+    const spinner = document.querySelector(".spinner-border");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent form submission for validation
+
+      // Clear previous feedback
+      const feedbackElements = document.querySelectorAll(".invalid-feedback");
+      feedbackElements.forEach((el) => (el.style.display = "none"));
+
+      let isValid = true;
+
+      // Validate Name
+      const name = document.getElementById("name").value;
+      if (name.length < 2) {
+        document.querySelector("#name + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Email
+      const email = document.getElementById("email").value;
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        document.querySelector("#email + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Phone
+      const phone = document.getElementById("phone").value;
+      const phonePattern = /^\+91\d{10}$/;
+      if (!phonePattern.test(phone)) {
+        document.querySelector("#phone + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Subject
+      const subject = document.getElementById("subject").value;
+      if (subject.trim() === "") {
+        document.querySelector("#subject + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // Validate Message
+      const message = document.getElementById("message").value;
+      const wordCount = message.trim().split(/\s+/).length;
+      if (wordCount <= 5) {
+        document.querySelector("#message + .invalid-feedback").style.display =
+          "block";
+        isValid = false;
+      }
+
+      // If all validations pass, enable the button and submit the form
+      if (isValid) {
+        sendButton.disabled = true;
+        spinner.style.display = "block"; // Show loading spinner
+        form.submit(); // Submit the form
+      }
+    });
+  });
 </script>
 <!-- <script>
   window.onload = function() {
